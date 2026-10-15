@@ -43,6 +43,10 @@
     "cli"
   ],
   "homepage": "https://jointhestudentlife.com/developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jointhestudentlife/jointhestudentlife-js.git"
+  },
   "bugs": {
     "url": "https://jointhestudentlife.com/contact",
     "email": "support@jointhestudentlife.com"
