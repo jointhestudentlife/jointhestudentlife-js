@@ -1,0 +1,56 @@
+{
+  "name": "jointhestudentlife",
+  "version": "1.0.0",
+  "description": "Official SDK and CLI for The Student Life: student events, ticket prices, city guides and deals in 85+ cities. Also an MCP stdio bridge to https://jointhestudentlife.com/mcp.",
+  "mcpName": "com.jointhestudentlife/mcp",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "jointhestudentlife": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "thestudentlife",
+    "jointhestudentlife",
+    "students",
+    "international-students",
+    "erasmus",
+    "study-abroad",
+    "events",
+    "halloween",
+    "welcome-festival",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "sdk",
+    "cli"
+  ],
+  "homepage": "https://jointhestudentlife.com/developers",
+  "bugs": {
+    "url": "https://jointhestudentlife.com/contact",
+    "email": "support@jointhestudentlife.com"
+  },
+  "author": {
+    "name": "The Student Life",
+    "email": "support@jointhestudentlife.com",
+    "url": "https://jointhestudentlife.com"
+  },
+  "license": "MIT"
+}
